@@ -1,0 +1,20 @@
+runtime: php55
+api_version: 1
+
+handlers:
+- url: /stylesheets
+  static_dir: stylesheets;
+  
+- url: /
+  script: index.php
+  script: upload.php
+  
+- url: /data
+  static_files: /audio/June.xml
+  static_files: /videos/June.xml
+  upload: /audio/June.xml
+  upload: /videos/June.xml
+
+- url: /
+  static_files: banner.png
+  upload: banner.png

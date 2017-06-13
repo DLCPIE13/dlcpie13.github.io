@@ -1,0 +1,15 @@
+TODO:
+1) Style the site
+2) Filter features
+3) Search feature
+
+DONE:
+1) Update feed when users upload file
+    1. Determine if file is audio or video
+    2. Add file to correct location in xml
+    3. Update feed
+2) Add time and date stamps
+3) Users can change title of uploaded videos
+4) Organize feed system
+    1. Allow user to create tags for files
+    2. Build organized filesystem for uploads
